@@ -75,7 +75,7 @@ class Tokenfield extends InputWidget {
             // If overwriting the model value
             if ($this->overwriteValue && $this->value) {
                 $name = Html::getInputName($this->model, $this->attribute);
-                $val = getValue();
+                $val = $this->getValue();
                 echo Html::textInput($name, $val, $this->options);
 
             // If normal model
@@ -85,7 +85,7 @@ class Tokenfield extends InputWidget {
 
         // Not active record
         } else {
-            $val = getValue();
+            $val = $this->getValue();
             echo Html::textInput($this->name, $val, $this->options);
         }
 
