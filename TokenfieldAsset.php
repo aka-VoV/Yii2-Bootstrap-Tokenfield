@@ -6,14 +6,14 @@ use yii\web\AssetBundle;
 use Yii;
 
 class TokenfieldAsset extends AssetBundle {
-    public $sourcePath = '';
 
 	public $css = [
-        'bootstrap-tokenfield/bootstrap-tokenfield.css',
+        'vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield/bootstrap-tokenfield.css',
+        'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/fix-token-height.css',
     ];
 
 	public $js = [
-		'bootstrap-tokenfield/bootstrap-tokenfield.min.js',
+		'vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield/bootstrap-tokenfield.min.js',
 	];
 
     public $depends = [
@@ -24,7 +24,6 @@ class TokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = '@bower/bootstrap-tokenfield';
         parent::init();
     }
 }
