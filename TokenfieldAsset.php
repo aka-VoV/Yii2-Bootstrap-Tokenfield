@@ -33,3 +33,15 @@ class TokenfieldAsset extends AssetBundle {
     }
 }
 
+
+    // public $css = [
+    //     'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/bootstrap-tokenfield.min.css',
+    //     'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/tokenfield-typeahead.min.css',
+    //     '//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css',
+    //     //'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/fix-token-height.css',
+    // ];
+
+    // public $js = [
+    //     'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/bootstrap-tokenfield.min.js',
+    //     '//code.jquery.com/ui/1.10.3/jquery-ui.js',
+    // ];
