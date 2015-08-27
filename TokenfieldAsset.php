@@ -3,16 +3,17 @@
 namespace akavov\tokenfield;
 
 use yii\web\AssetBundle;
+use Yii;
 
 class TokenfieldAsset extends AssetBundle {
     public $sourcePath = '';
 
 	public $css = [
-        'css/bootstrap-tokenfield.min.css',
+        'bootstrap-tokenfield/bootstrap-tokenfield.css',
     ];
 
 	public $js = [
-		'js/bootstrap-tokenfield.min.js',
+		'bootstrap-tokenfield/bootstrap-tokenfield.min.js',
 	];
 
     public $depends = [
@@ -23,7 +24,7 @@ class TokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = __DIR__ . '/assets';
+        $this->sourcePath = '@bower/bootstrap-tokenfield';
         parent::init();
     }
 }

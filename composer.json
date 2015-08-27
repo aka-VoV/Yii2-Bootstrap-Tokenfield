@@ -13,9 +13,9 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/jquery": ">=2.1.0",
+        "bower-asset/bootstrap-tokenfield": "*",
         "bower-asset/bootstrap": ">=3.1.1",
-        "bower-asset/typeahead.js": ">=0.10.1",
-        "bower-asset/bootstrap-tokenfield": ">=0.12.1"
+        "bower-asset/typeahead.js": ">=0.10.1"
     },
     "autoload": {
         "psr-4": {
