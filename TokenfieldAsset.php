@@ -10,10 +10,15 @@ class TokenfieldAsset extends AssetBundle {
 	public $css = [
         'vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield/bootstrap-tokenfield.css',
         'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/fix-token-height.css',
+        '//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css',
+        'vendor/akavov/yii2-tokenfield-for-bootstrap/assets/fix-token-height.css',
     ];
 
 	public $js = [
-		'vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield/bootstrap-tokenfield.min.js',
+        'vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield/bootstrap-tokenfield.min.js',
+		'vendor/bower/typeahead.js/dist/typeahead.bundle.min.js',
+        '//code.jquery.com/ui/1.10.3/jquery-ui.js',
+
 	];
 
     public $depends = [
@@ -27,3 +32,4 @@ class TokenfieldAsset extends AssetBundle {
         parent::init();
     }
 }
+
