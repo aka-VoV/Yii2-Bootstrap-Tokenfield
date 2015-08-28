@@ -107,5 +107,6 @@ class Tokenfield extends InputWidget {
     private function registerAssets() {
         $view = $this->getView();
         TokenfieldAsset::register($view);
+        JqueryUiAsset::register($view);
 	}
 }
