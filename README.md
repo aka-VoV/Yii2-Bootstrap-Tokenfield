@@ -1,6 +1,6 @@
 Bootstrap Tokenfield
 ====================
-Create elegant taggable fields with copy/paste and keyboard support using Bootstrap Tokefield
+Create elegant taggable fields with copy/paste and keyboard support using Bootstrap Tokefield (http://sliptree.github.io/bootstrap-tokenfield/)
 
 Installation
 ===================
