@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by :
 **to use autocomplete**
 ```
 <?= \akavov\tokenfield\Tokenfield::widget([
-    'name' => 'attributeName',
+    'name' => 'inputName',
     "pluginOptions" => [
         'showAutocompleteOnFocus' => true,
         'autocomplete' => [
