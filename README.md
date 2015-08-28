@@ -54,3 +54,8 @@ Once the extension is installed, simply use it in your code by :
     ],
 ]); ?>
 ```
+
+TODO
+=============================
+1. Add ability to choose between jqueryui and typeahead
+2. Test
