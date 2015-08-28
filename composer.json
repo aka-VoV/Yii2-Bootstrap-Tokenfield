@@ -12,18 +12,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "sliptree/bootstrap-tokenfield" : "*",
         "bower-asset/jquery": ">=2.1.0",
         "bower-asset/bootstrap-tokenfield": "*",
         "bower-asset/bootstrap": ">=3.1.1",
         "bower-asset/typeahead.js": ">=0.10.1"
     },
-    "repositories":[
-      {
-        "type": "git",
-        "url": "https://github.com/sliptree/bootstrap-tokenfield.git"
-      }
-    ],
     "autoload": {
         "psr-4": {
             "akavov\\tokenfield\\": ""

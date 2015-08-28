@@ -5,16 +5,16 @@ namespace akavov\tokenfield;
 use yii\web\AssetBundle;
 use Yii;
 
-class TokenfieldAsset extends AssetBundle {
+class TypeaheadAsset extends AssetBundle {
 
     public $sourcePath = '';
 
 	public $css = [
-        'bootstrap-tokenfield.css',
+
     ];
 
 	public $js = [
-        'bootstrap-tokenfield.min.js',
+		'typeahead.bundle.min.js',
 	];
 
     public $depends = [
@@ -25,8 +25,7 @@ class TokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = "vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield";
+        $this->sourcePath = "vendor/bower/typeahead.js/dist";
         parent::init();
     }
 }
-
