@@ -32,6 +32,7 @@ Once the extension is installed, simply use it in your code by :
 <?= \akavov\tokenfield\Tokenfield::widget([
     'name' => 'inputName',
     "pluginOptions" => [
+        'delimiter' => '#', // default ',' (comma)
         'showAutocompleteOnFocus' => true,
         'autocomplete' => [
             'source' => ['red','blue','green','yellow','violet','brown','purple','black','white'],
@@ -46,6 +47,7 @@ Once the extension is installed, simply use it in your code by :
 ```
 <?= $form->field($model, 'name')->widget(\akavov\tokenfield\Tokenfield::className(), [
     'pluginOptions' => [
+        'delimiter' => '#', // default ',' (comma)
         'showAutocompleteOnFocus' => true,
         'autocomplete' => [
             'source' => ['red','blue','green','yellow','violet','brown','purple','black','white'],
