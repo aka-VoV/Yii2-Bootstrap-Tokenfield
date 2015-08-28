@@ -1,5 +1,5 @@
 {
-    "name": "akavov/yii2-tokenfield-for-bootstrap",
+    "name": "akavov/yii2-bootstrap-tokenfield",
     "description": "Create elegant taggable fields with copy/paste and keyboard support using Bootstrap Tokefield",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"," tokenfield"," bootstrap"," tags"],
