@@ -9,11 +9,11 @@ The preferred way to install this extension is through composer.
 
 **Either run**
 ```
-php composer.phar require --prefer-dist akavov/yii2-tokenfield-for-bootstrap": "*"
+php composer.phar require --prefer-dist akavov/yii2-bootstrap-tokenfield : "*"
 ```
 **or add**
 ```
-"akavov/yii2-tokenfield-for-bootstrap": "*"
+"akavov/yii2-bootstrap-tokenfield": "*"
 ```
 
 to the require section of your composer.json file.
