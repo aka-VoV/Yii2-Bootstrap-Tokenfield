@@ -25,7 +25,7 @@ class TypeaheadAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = "vendor/bower/typeahead.js/dist";
+        $this->sourcePath = "@vendor/bower/typeahead.js/dist";
         parent::init();
     }
 }

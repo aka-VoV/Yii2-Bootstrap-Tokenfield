@@ -25,7 +25,7 @@ class TokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = "vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield";
+        $this->sourcePath = "@vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield";
         parent::init();
     }
 }
