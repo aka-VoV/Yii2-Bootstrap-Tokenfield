@@ -14,7 +14,7 @@
         "yiisoft/yii2": "*",
         "bower-asset/jquery": ">=2.1.0",
         "bower-asset/jqueryui": ">=1.11.4",
-        "bower-asset/bootstrap-tokenfield": "*",
+        "npm-asset/bootstrap-tokenfield": "*",
         "bower-asset/bootstrap": ">=3.1.1",
         "bower-asset/typeahead.js": ">=0.10.1"
     },
