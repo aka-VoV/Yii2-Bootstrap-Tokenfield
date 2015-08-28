@@ -10,7 +10,7 @@ class TokenfieldAsset extends AssetBundle {
     public $sourcePath = '';
 
 	public $css = [
-        'bootstrap-tokenfield.css',
+        'css/bootstrap-tokenfield.min.css',
     ];
 
 	public $js = [
@@ -25,7 +25,7 @@ class TokenfieldAsset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->sourcePath = "@vendor/bower/bootstrap-tokenfield/bootstrap-tokenfield";
+        $this->sourcePath = "@vendor/npm/bootstrap-tokenfield/dist";
         parent::init();
     }
 }
